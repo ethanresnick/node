@@ -455,7 +455,7 @@ server has closed.
 ### `server[Symbol.asyncIterator]()`
 
 <!-- YAML
-added: REPLACEME
+added: v26.7.0
 -->
 
 > Stability: 1 - Experimental
@@ -1775,7 +1775,7 @@ server.listen(bound); // Adopt as a server, or pass to new net.Socket() instead.
 <!-- YAML
 added: v26.4.0
 changes:
-  - version: REPLACEME
+  - version: v26.7.0
     pr-url: https://github.com/nodejs/node/pull/64399
     description: The `path` option is supported.
 -->
@@ -1802,7 +1802,7 @@ changes:
 <!-- YAML
 added: v26.4.0
 changes:
-  - version: REPLACEME
+  - version: v26.7.0
     pr-url: https://github.com/nodejs/node/pull/64399
     description: The bound path is returned for a pipe bind.
 -->
@@ -1817,7 +1817,7 @@ OS-assigned ephemeral port.
 ### `boundSocket.isPipe`
 
 <!-- YAML
-added: REPLACEME
+added: v26.7.0
 -->
 
 * {boolean}
@@ -2321,7 +2321,7 @@ net.isIPv6('fhqwhgads'); // returns false
 ## `net/promises` API
 
 <!-- YAML
-added: REPLACEME
+added: v26.7.0
 -->
 
 > Stability: 1 - Experimental
@@ -2337,7 +2337,7 @@ objects rather than relying on events. The API is accessible via
 ### `netPromises.connect(port[, host])`
 
 <!-- YAML
-added: REPLACEME
+added: v26.7.0
 -->
 
 * `options` {Object} Accepts the same arguments as [`net.connect()`][]. May
@@ -2366,7 +2366,7 @@ socket.end();
 ### `netPromises.listen([options])`
 
 <!-- YAML
-added: REPLACEME
+added: v26.7.0
 -->
 
 * `options` {Object} Accepts the same options as [`net.createServer()`][] and
